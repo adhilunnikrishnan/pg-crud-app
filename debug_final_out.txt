@@ -1,0 +1,35 @@
+STDOUT: process ID 12500: server running on PORT 9002 in development mode
+
+--- Sending registration request ---
+Payload: {"username":"adhiltest778","email":"adhil334@gmail.com","password":"password123","role":"user","age":25}
+STDOUT: Register request body: {
+  username: 'adhiltest778',
+  email: 'adhil334@gmail.com',
+  password: 'password123',
+  role: 'user',
+  age: 25
+}
+STDOUT: Hashing password...
+STDOUT: Creating user in database...
+STDERR: Registration Error: PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+The column `email` does not exist in the current database.
+    at ei.handleRequestError (D:\MERN-FullStack\01_Projects\pg-crud-app\node_modules\@prisma\client\runtime\library.js:121:7268)
+    at ei.handleAndLogRequestError (D:\MERN-FullStack\01_Projects\pg-crud-app\node_modules\@prisma\client\runtime\library.js:121:6593)
+    at ei.request (D:\MERN-FullStack\01_Projects\pg-crud-app\node_modules\@prisma\client\runtime\library.js:121:6300)
+    at async a (D:\MERN-FullStack\01_Projects\pg-crud-app\node_modules\@prisma\client\runtime\library.js:130:9551)
+    at async register (file:///D:/MERN-FullStack/01_Projects/pg-crud-app/controllers/auth.js:15:25) {
+  code: 'P2022',
+  meta: { modelName: 'User', column: 'email' },
+  clientVersion: '6.19.1'
+}
+
+--- Result ---
+Status: 500
+Body: Server Error: 
+Invalid `prisma.user.create()` invocation:
+
+
+The column `email` does not exist in the current database.

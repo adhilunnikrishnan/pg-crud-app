@@ -1,0 +1,18 @@
+STDOUT: process ID 19228: server running on PORT 9002 in development mode
+
+--- Sending registration request ---
+Payload: {"username":"adhiltest370","email":"adhil321@gmail.com","password":"password123","role":"user","age":25}
+STDOUT: Register request body: {
+  username: 'adhiltest370',
+  email: 'adhil321@gmail.com',
+  password: 'password123',
+  role: 'user',
+  age: 25
+}
+STDOUT: Hashing password...
+STDOUT: Creating user in database...
+STDOUT: User created successfully: 1
+
+--- Result ---
+Status: 201
+Body: {"id":1,"username":"adhiltest370","email":"adhil321@gmail.com","role":"user","age":25}
