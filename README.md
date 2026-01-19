@@ -2,6 +2,17 @@
 
 A secure REST API built using **Node.js**, **Express**, and **PostgreSQL** with **Prisma ORM**. Features include JWT authentication, role-based access control (RBAC), and CRUD operations for Students and Users.
 
+<div>
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT (Authentication)" />
+  <img src="https://img.shields.io/badge/-bcrypt-003366?style=for-the-badge&logo=security&logoColor=white" alt="bcrypt" />
+  <img src="https://img.shields.io/badge/-dotenv-009639?style=for-the-badge&logo=dotenv&logoColor=white" alt="dotenv" />
+  <img src="https://img.shields.io/badge/-Joi-FB8C00?style=for-the-badge&logo=joi&logoColor=white" alt="Joi Validation" />
+</div>
+
 ## 🧭 Table of Contents
 - [📖 Introduction](#-introduction)
 - [⚙ Tech Stack](#-tech-stack)
